@@ -1,0 +1,216 @@
+body
+{
+  font-family: arial, sans-serif;
+  margin: 0px;
+}
+.boutons
+{
+  padding: 6px;
+  font-size: 14px;
+  font-family: arial, sans-serif;
+  color: #202124;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+}
+.boutons p
+{
+  padding: 6px ;
+
+}
+
+.boutons a 
+{
+  color: #202124;
+  text-decoration: none;
+
+}
+
+.boutons a:hover
+{
+  text-decoration: underline;
+}
+
+.boutons p img
+{
+  padding: 6px;
+  width: 20px;
+  display: flex;
+  align-self: center;
+}
+
+.connexion a
+{
+  background: #1a73e8;
+  border: 1px transparent solid;
+  border-radius: 5px;
+  color: white;
+  padding: 9px 23px 9px 23px;
+  margin-left: 4px;
+}
+
+.connexion a:hover
+{
+  text-decoration: none;
+  background: #4387fd;
+}
+
+article
+{
+  padding-top: 100px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-content: center;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+
+}
+
+.logo
+{
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.barre
+{
+  margin-top: 10px;
+  width: 500px;
+  height: 35px;
+  border: 10px;
+  border: 0.7px lightgrey solid;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.barre:hover
+{
+  box-shadow: 0px 0px 10px lightgrey;
+}
+.loupe
+{
+  margin:  6px 6px 6px 10px;
+}
+
+.recherche
+{
+  width: 450px;
+  border-style: none;
+}
+
+textarea:focus, input:focus
+{
+  outline: none;
+}
+
+.micro
+{
+  margin: 6px 10px 6px 6px;
+}
+
+.boutonssousbarre
+{
+  display: flex;
+  justify-content: center;
+
+}
+
+.boutonssousbarre p
+{
+  margin: 20px 15px 0 15px;
+  padding: 9px 23px 9px 23px;
+  border: 1px transparent solid;
+  border-radius: 3px;
+  background: #f8f9fa;
+}
+
+.boutonssousbarre p:hover
+{
+  border: 1px lightgrey solid;
+  border-radius: 3px;
+  box-shadow: 0px 4px 5px lightgrey;
+}
+
+.blanc
+{
+  width: 1147px;
+  height: 283px;
+}
+footer
+{
+  width: 100%;
+  background: #f2f2f2;
+  
+}
+
+.liens
+{
+  font-size: 14px;
+  color: #70757a;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.pays
+{
+  font-size: 15px;
+  border-bottom: 1px solid #dadce0;
+  padding-left: 30px;
+  display: flex;
+  color: #70757a;
+}
+
+.top
+{
+  display: flex;
+  justify-content: center;
+}
+
+.feuille
+{
+  width: 18px;
+  height: 16px;
+  margin: 0px 5px 8px 0;
+  align-self: center;
+}
+.middle
+{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.middle p
+{
+  margin: 10px 15px;
+}
+.bottom
+{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+
+}
+
+.bottom p
+{
+  margin: 10px 15px;
+}
+
+.liens a 
+{
+  color: #70757a;
+  text-decoration: none;
+
+}
+
+.liens a:hover
+{
+  text-decoration: underline;
+}
