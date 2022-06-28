@@ -143,6 +143,7 @@ textarea:focus, input:focus
 footer
 {
   background: #f2f2f2;
+  height: 0 100%;
   
 }
 
@@ -150,9 +151,7 @@ footer
 {
   font-size: 14px;
   color: #70757a;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  
 
 }
 
@@ -169,8 +168,8 @@ footer
 {
   display: flex;
   justify-content: center;
-  align-items: center;
-  order: -1;
+  align-self: center;
+  
 }
 
 .feuille
